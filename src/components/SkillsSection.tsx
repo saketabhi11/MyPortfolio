@@ -2,7 +2,7 @@ const SkillsSection = () => {
   const skillCategories = [
     {
       title: 'Languages',
-      skills: ['C', 'C++', 'Python', 'JavaScript (ES6+)', 'TypeScript'],
+      skills: ['C', 'C++', 'Python', 'JavaScript ', 'TypeScript'],
     },
     {
       title: 'Frameworks & Libraries',
@@ -10,7 +10,7 @@ const SkillsSection = () => {
     },
     {
       title: 'Databases',
-      skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'MongoDB Atlas'],
+      skills: ['MySQL', 'PLSQL', 'MongoDB', 'MongoDB Atlas', 'MongoDB Compas'],
     },
     {
       title: 'Tools & Platforms',
@@ -18,7 +18,7 @@ const SkillsSection = () => {
     },
     {
       title: 'Core CS Concepts',
-      skills: ['Data Structures & Algorithms', 'Object-Oriented Programming', 'Database Management Systems', 'Operating Systems', 'Computer Networks'],
+      skills: ['Data Structures & Algorithms', 'Object-Oriented Programming', 'Database Management Systems', 'Operating Systems'],
     },
     {
       title: 'Software Engineering',
