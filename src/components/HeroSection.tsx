@@ -1,3 +1,4 @@
+import { Phone } from "lucide-react";
 import HeroParticles from "./HeroParticles";
 import { ArrowRight, Download, Github, Linkedin, Mail } from 'lucide-react';
 
@@ -54,29 +55,33 @@ const HeroSection = () => {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-wrap items-center justify-center gap-4 mb-12 animate-fade-up opacity-0 stagger-4">
-            <a href="#projects" className="btn-primary">
-              View Projects
-              <ArrowRight size={18} />
-            </a>
-            <a 
-              href="/SaketAbhishekResume.pdf" 
-              download 
-              className="btn-secondary"
-            >
-              <Download size={18} />
-              Download Resume
-            </a>
-            <a href="#contact" className="btn-secondary">
-              <Mail size={18} />
-              Contact Me
-            </a>
-          </div>
+<div className="flex flex-wrap items-center justify-center gap-4 mb-12 animate-fade-up opacity-0 stagger-4">
+  <a href="#projects" className="btn-primary">
+    View Projects
+    <ArrowRight size={18} />
+  </a>
+
+  <a 
+    href="/SaketAbhishekResume.pdf" 
+    download 
+    className="btn-secondary"
+  >
+    <Download size={18} />
+    Download Resume
+  </a>
+
+  <a href="#contact" className="btn-secondary">
+    <Mail size={18} />
+    Contact Me
+  </a>
+
+</div>
+
 
           {/* Social Links */}
           <div className="flex items-center justify-center gap-6 animate-fade-up opacity-0 stagger-5">
             <a
-              href="https://github.com/saket11"
+              href="https://github.com/saketabhi11"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-lg border border-border bg-secondary/30 text-muted-foreground 
@@ -86,7 +91,7 @@ const HeroSection = () => {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/saketabhishek"
+              href="https://www.linkedin.com/in/saket-abhishek/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-lg border border-border bg-secondary/30 text-muted-foreground 
@@ -103,6 +108,14 @@ const HeroSection = () => {
             >
               <Mail size={20} />
             </a>
+            <a
+    href="tel:+919507944041"
+    className="btn-secondary p-3 rounded-lg border border-border bg-secondary/30 text-muted-foreground 
+                       hover:text-foreground hover:border-primary/50 transition-all duration-300"
+    aria-label="Call"
+  >
+    <Phone size={18} />
+  </a>
           </div>
         </div>
       </div>

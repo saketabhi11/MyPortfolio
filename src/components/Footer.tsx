@@ -18,7 +18,7 @@ const Footer = () => {
 
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com/saket11"
+              href="https://github.com/saketabhi11"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg text-muted-foreground hover:text-foreground transition-colors"
@@ -27,7 +27,7 @@ const Footer = () => {
               <Github size={18} />
             </a>
             <a
-              href="https://linkedin.com/in/saketabhishek"
+              href="https://www.linkedin.com/in/saket-abhishek/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg text-muted-foreground hover:text-foreground transition-colors"
@@ -45,8 +45,9 @@ const Footer = () => {
           </div>
 
           <p className="text-sm text-muted-foreground">
-            © {currentYear} All rights reserved.
-          </p>
+  © {currentYear} Made with <span className="text-primary">💙</span> by Saket.
+</p>
+
         </div>
       </div>
     </footer>

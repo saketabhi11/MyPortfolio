@@ -71,12 +71,12 @@ const ContactSection = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/saket11",
+      href: "https://github.com/saketabhi11",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/saketabhishek",
+      href: "https://www.linkedin.com/in/saket-abhishek/",
     },
   ];
 

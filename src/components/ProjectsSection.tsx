@@ -2,6 +2,38 @@ import { ExternalLink, Github, Layers } from 'lucide-react';
 
 const ProjectsSection = () => {
   const projects = [
+
+    {
+    title: "Lost & Found Management System",
+    problem: "Lost items in campuses and public spaces often go untracked, making recovery inefficient and time-consuming.",
+    description: "Built a centralized Lost & Found platform that allows users to report, search, and claim lost items efficiently. The system improves traceability and simplifies item recovery through structured listings and verification workflows.",
+    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs"],
+    features: [
+      "Post and browse lost & found item listings",
+      "Category-based and keyword search for quick discovery",
+      "Secure claim request and verification workflow",
+      "Admin moderation for authenticity and misuse prevention",
+    ],
+    github: "https://github.com/saketabhi11/LOST_AND_FOUND",
+    live: "https://lost-and-found-blond.vercel.app/",
+  },
+
+  {
+  title: "Algorithm Visualizer",
+  problem: "Understanding complex algorithms through static code and theory is difficult for beginners and interview aspirants.",
+  description: "Built an interactive Algorithm Visualizer that helps users understand how algorithms work step-by-step through real-time visual animations. The platform focuses on clarity, learning efficiency, and interview preparation.",
+  techStack: ["React.js", "TypeScript", "Tailwind CSS", "JavaScript"],
+  features: [
+    "Step-by-step visualization of algorithms",
+    "Supports sorting and searching algorithms",
+    "Adjustable speed control for better understanding",
+    "Clean UI focused on learning and intuition",
+  ],
+  github: "https://github.com/saketabhishek11/Algorithm-Visualizer",
+  live: "https://algorithm-visualizer-eta-flame.vercel.app/",
+},
+
+
   {
     title: " AI Cab Price Comparison",
     problem: "Users struggle to find the best cab fares across multiple providers, often overpaying during surge pricing periods.",
@@ -13,10 +45,11 @@ const ProjectsSection = () => {
       "Intuitive dashboard for fare comparisons and savings estimates",
       "Time-optimized route recommendations",
     ],
-    github: "https://github.com/saket11/ai-cab-comparison",
+    github: "https://github.com/saketabhi11/Cab-Price-Comparison",
     live: null,
   },
-  {
+
+   {
     title: "Gamified Employee Engagement Platform",
     problem: "Traditional workplace tools lack engagement, leading to reduced productivity and poor task completion rates.",
     description: "Designed and developed a gamified platform that transforms workplace productivity through leaderboards, performance tracking, and seamless Trello integration for task management.",
@@ -28,20 +61,6 @@ const ProjectsSection = () => {
       "Increased employee participation by 35%",
     ],
     github: "https://github.com/saket11/employee-engagement",
-    live: null,
-  },
-  {
-    title: "Lost & Found Management System",
-    problem: "Lost items in campuses and public spaces often go untracked, making recovery inefficient and time-consuming.",
-    description: "Built a centralized Lost & Found platform that allows users to report, search, and claim lost items efficiently. The system improves traceability and simplifies item recovery through structured listings and verification workflows.",
-    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs"],
-    features: [
-      "Post and browse lost & found item listings",
-      "Category-based and keyword search for quick discovery",
-      "Secure claim request and verification workflow",
-      "Admin moderation for authenticity and misuse prevention",
-    ],
-    github: "https://github.com/saket11/lost-and-found",
     live: null,
   },
 
