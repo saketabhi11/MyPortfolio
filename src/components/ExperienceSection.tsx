@@ -3,16 +3,16 @@ import { Briefcase, Calendar, MapPin } from 'lucide-react';
 const ExperienceSection = () => {
   const experiences = [
     {
-      title: "Operations & Strategy Intern",
+      title: "Full Stack Engineer Intern",
       company: "Hirers.co.in",
       type: "HR Tech Startup",
       period: "Feb 2025 – May 2025",
       location: "Hybrid",
       highlights: [
-        "Collaborated with founding team on strategy, planning, and execution across business functions",
-        "Streamlined daily operations across product, marketing, and HR teams",
-        "Conducted market research and competitor analysis to guide growth initiatives",
-        "Assisted in digital marketing campaigns and partnership outreach to boost user acquisition",
+        "Developed and maintained full-stack application features using modern frontend frameworks and backend services.",
+        "Implemented RESTful APIs and worked with SQL/NoSQL databases to support scalable application functionality.",
+        "Collaborated with senior engineers to translate requirements into clean, production-ready code.",
+        "Debugged, tested, and optimized app components to improve performance, reliability, and user experience.",
       ],
     },
     {
